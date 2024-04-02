@@ -1,3 +1,4 @@
+package ru.netlogy.javaqa.javaqamvn.services;
 public class WorkCalcService {
 public int calculate(int income, int expenses) {
     int count = 0; // счётчик месяцев отдыха
@@ -12,4 +13,6 @@ public int calculate(int income, int expenses) {
     }
     return count;
 }
-}
+
+
+    }
